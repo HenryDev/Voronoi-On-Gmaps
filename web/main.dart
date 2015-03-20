@@ -2,8 +2,6 @@ import 'dart:html';
 import 'package:google_maps/google_maps.dart';
 
 void main() {
-  querySelector('#output').text = 'Your Dart app is running.';
-  querySelector('#map_canvas').text = 'this is the canvas';
   var mapOptions = new MapOptions()
     ..mapTypeId = MapTypeId.ROADMAP
     ..zoom = 11
