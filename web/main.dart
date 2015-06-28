@@ -8,5 +8,5 @@ void main() {
     ..zoom = 11
     ..center = new LatLng(39.9829514, -82.990829);
   var map = new GMap(querySelector('#map_canvas'), mapOptions);
-  new D3overlay();
+  new D3overlay(map);
 }
